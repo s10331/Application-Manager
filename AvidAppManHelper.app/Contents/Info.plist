@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>AvidAppManHelper</string>
+	<key>CFBundleExecutable</key>
+	<string>AvidAppManHelper</string>
+	<key>CFBundleGetInfoString</key>
+	<string>AvidAppManHelper 2.4.0 Copyright 2014-2015 by Avid Technology Inc. 6360</string>
+	<key>CFBundleIconFile</key>
+	<string>AppMan.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.avid.ApplicationManagerHelper</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>AvidAppManHelper</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.4.0.6360</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>2.4.0</string>
+	<key>JVMMainClassName</key>
+	<string>com.avid.jettyservice.JettyStarter</string>
+	<key>JVMOptions</key>
+	<array>
+		<string>-Dfile.encoding=UTF-8</string>
+		<string>-Xmx1024m</string>
+		<string>-cp</string>
+		<string>$APP_ROOT/Contents/Java/AvidApplicationManagerHelper.war</string>
+	</array>
+	<key>JVMRuntime</key>
+	<string>1.7.0-u25-AvidOpenJDK</string>
+	<key>LSUIElement</key>
+	<string>1</string>
+	<key>NSHumanReadableCopyright</key>
+	<string></string>
+</dict>
+</plist>
